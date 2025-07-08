@@ -1,0 +1,16 @@
+# Common
+node_modules/
+.env
+Dockerfile.local
+docker-compose.override.yml
+
+# React
+/frontend/node_modules
+/frontend/dist
+
+# Rails
+/backend/log/*
+!/backend/log/.keep
+/backend/tmp/*
+!/backend/tmp/.keep
+/backend/.env
